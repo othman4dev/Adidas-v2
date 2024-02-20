@@ -1,0 +1,135 @@
+.blue-move{
+    color: #6102fb !important;
+}
+.bg-blue-mv{
+    background-color: #6102fb !important;
+}
+.detailLef{
+    width: 20% !important;
+}
+.detailRight{
+    width: 70% !important;
+}
+.imageWikidetails{
+    width: 400px !important;
+}
+
+.togl_menu {
+    display: none;
+}
+aside{
+    position: sticky;
+    top: 80px;
+    display: none;
+    width: 250px !important;
+    min-height: 80vh;
+    background: white;
+    box-shadow: 2px 2px 40px  rgba(190, 190, 190, 0.39);
+}
+.link-bleuFa{
+    color: #012970 !important;
+}
+.textHero{
+    height: 400px;
+}
+.hero{
+    min-height: calc( 100vh - 80px );
+}
+.ml-2{
+    margin-left: 20px;
+}
+.titleSection{
+    color: #012970 !important;
+    font-size: 40px;
+}
+.btn-primary:hover{
+    background-color: transparent !important;
+    color: #012970 !important;
+    border-color: #6102fb !important;
+}
+.btn-primary{
+    background-color: #6102fb !important;
+}
+h5 span, .blueColor{
+    color: #6102fb !important;
+}
+.textHero h1{
+    font-size: 80px;
+    font-weight: bold;
+} 
+.textHero h1 span{
+    color: #6102fb;
+}
+
+.nav-link {
+    color: #012970 !important;
+}
+.nav-link.active, .nav-link:hover {
+    border-radius: 5px !important;
+    color: #ffffff !important;
+    background-color: #6102fb;
+}
+.ml-1{
+    margin-left: 10px;
+}
+.ratio{
+    width: 50% !important;
+}
+.contctForm input{
+    width: 600px !important;
+}
+.wikis .textHero{
+    background-color: rgba(201, 192, 255, 0.254);
+    height: 50vh !important;
+}
+@media screen and (max-width : 1000px) {
+    .textHero h1{
+        font-size: 50px;
+        margin-bottom: 30px !important;
+    } 
+}
+@media screen and (max-width : 760px) {
+    header nav, header .logo, .hero .image,.ratio,
+    .wikis .image{
+        display: none;
+    }
+    .wikis .textHero.col-6{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    aside.collapsed{
+        display: block;
+    }
+    .textHero h1{
+        font-size: 50px;
+        margin-bottom: 30px !important;
+    } 
+    .textHero p, .inputNewUser, .butt{
+        margin-bottom: 30px !important;
+    }
+    .togl_menu {
+        display: block;
+    }
+    .services.justify-content-between {
+        justify-content: center !important;
+    }
+    .contctForm input{
+        width: 200px !important;
+    }
+
+
+    .detailWikis.d-flex{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .detailLef{
+        width: 100% !important;
+    }
+    .detailRight{
+        width: 100% !important;
+    }
+    .imageWikidetails img{
+        width: 200px !important;
+    }
+}
